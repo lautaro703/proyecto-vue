@@ -6,8 +6,8 @@
   <button @click="decrementar">decrementar</button>
 </template>
 
-<script setup>
-import {ref} from 'vue';
+
+<script setup>import {ref} from 'vue';
 const contador = ref(0)
 const incrementar = () => {
   contador.value++;
